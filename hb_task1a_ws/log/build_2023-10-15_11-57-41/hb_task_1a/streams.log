@@ -1,0 +1,23 @@
+[0.987s] Invoking command in '/home/azmi/eyrc_hb/hb_task1a_ws/src/hb_task_1a': PYTHONPATH=/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/prefix_override:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1a build --build-base /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build install --record /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log --single-version-externally-managed
+[1.218s] running egg_info
+[1.218s] writing ../../build/hb_task_1a/hb_task_1a.egg-info/PKG-INFO
+[1.219s] writing dependency_links to ../../build/hb_task_1a/hb_task_1a.egg-info/dependency_links.txt
+[1.220s] writing entry points to ../../build/hb_task_1a/hb_task_1a.egg-info/entry_points.txt
+[1.220s] writing requirements to ../../build/hb_task_1a/hb_task_1a.egg-info/requires.txt
+[1.220s] writing top-level names to ../../build/hb_task_1a/hb_task_1a.egg-info/top_level.txt
+[1.221s] reading manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.222s] writing manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.223s] running build
+[1.223s] running build_py
+[1.224s] running install
+[1.224s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.224s]   warnings.warn(
+[1.225s] running install_lib
+[1.226s] running install_data
+[1.228s] running install_egg_info
+[1.230s] removing '/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info' (and everything under it)
+[1.230s] Copying ../../build/hb_task_1a/hb_task_1a.egg-info to /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info
+[1.232s] running install_scripts
+[1.251s] Installing task_1a_3299 script to /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/hb_task_1a
+[1.251s] writing list of installed files to '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log'
+[1.275s] Invoked command in '/home/azmi/eyrc_hb/hb_task1a_ws/src/hb_task_1a' returned '0': PYTHONPATH=/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/prefix_override:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1a build --build-base /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build install --record /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log --single-version-externally-managed

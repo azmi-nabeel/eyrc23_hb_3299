@@ -1,0 +1,38 @@
+[1.001s] Invoking command in '/home/azmi/eyrc_hb/hb_task1a_ws/src/hb_task_1a': PYTHONPATH=/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/prefix_override:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1a build --build-base /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build install --record /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log --single-version-externally-managed
+[1.249s] running egg_info
+[1.250s] creating ../../build/hb_task_1a/hb_task_1a.egg-info
+[1.250s] writing ../../build/hb_task_1a/hb_task_1a.egg-info/PKG-INFO
+[1.250s] writing dependency_links to ../../build/hb_task_1a/hb_task_1a.egg-info/dependency_links.txt
+[1.250s] writing entry points to ../../build/hb_task_1a/hb_task_1a.egg-info/entry_points.txt
+[1.250s] writing requirements to ../../build/hb_task_1a/hb_task_1a.egg-info/requires.txt
+[1.251s] writing top-level names to ../../build/hb_task_1a/hb_task_1a.egg-info/top_level.txt
+[1.251s] writing manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.252s] reading manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.253s] writing manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'
+[1.253s] running build
+[1.253s] running build_py
+[1.253s] creating /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build
+[1.253s] creating /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build/lib
+[1.253s] creating /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build/lib/hb_task_1a
+[1.253s] copying hb_task_1a/task_1a_3299.py -> /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build/lib/hb_task_1a
+[1.253s] copying hb_task_1a/__init__.py -> /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build/lib/hb_task_1a
+[1.253s] running install
+[1.254s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[1.254s]   warnings.warn(
+[1.254s] running install_lib
+[1.255s] creating /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a
+[1.255s] copying /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build/lib/hb_task_1a/task_1a_3299.py -> /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a
+[1.255s] copying /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build/lib/hb_task_1a/__init__.py -> /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a
+[1.256s] byte-compiling /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a/task_1a_3299.py to task_1a_3299.cpython-310.pyc
+[1.256s] byte-compiling /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a/__init__.py to __init__.cpython-310.pyc
+[1.256s] running install_data
+[1.257s] creating /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/share/ament_index
+[1.257s] creating /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/share/ament_index/resource_index
+[1.257s] creating /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/share/ament_index/resource_index/packages
+[1.257s] copying resource/hb_task_1a -> /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/share/ament_index/resource_index/packages
+[1.257s] copying package.xml -> /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/share/hb_task_1a
+[1.257s] running install_egg_info
+[1.258s] Copying ../../build/hb_task_1a/hb_task_1a.egg-info to /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info
+[1.259s] running install_scripts
+[1.279s] writing list of installed files to '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log'
+[1.305s] Invoked command in '/home/azmi/eyrc_hb/hb_task1a_ws/src/hb_task_1a' returned '0': PYTHONPATH=/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/prefix_override:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/hb_task_1a build --build-base /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build install --record /home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log --single-version-externally-managed

@@ -1,0 +1,384 @@
+[0.000000] (-) TimerEvent: {}
+[0.000175] (hb_task_1a) JobQueued: {'identifier': 'hb_task_1a', 'dependencies': OrderedDict()}
+[0.000265] (turtlesim) JobQueued: {'identifier': 'turtlesim', 'dependencies': OrderedDict()}
+[0.000325] (hb_task_1a) JobStarted: {'identifier': 'hb_task_1a'}
+[0.090388] (turtlesim) JobStarted: {'identifier': 'turtlesim'}
+[0.099260] (-) TimerEvent: {}
+[0.199748] (-) TimerEvent: {}
+[0.300053] (-) TimerEvent: {}
+[0.400349] (-) TimerEvent: {}
+[0.496667] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'cmake'}
+[0.497994] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'build'}
+[0.498063] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/azmi/eyrc_hb/hb_task1a_ws/build/turtlesim', '--', '-j8', '-l8'], 'cwd': '/home/azmi/eyrc_hb/hb_task1a_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'azmi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azmi'), ('OLDPWD', '/home/azmi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1565'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11969'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azmi'), ('JOURNAL_STREAM', '8:34421'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azmi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/azmi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azmis-Inspiron:@/tmp/.ICE-unix/1722,unix/azmis-Inspiron:/tmp/.ICE-unix/1722'), ('INVOCATION_ID', '2b4ecb823a844bbab18d07111bf69a72'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JDWTC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a23e5278-ffba-4c80-9b29-cc6c8bf8b1eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azmi/eyrc_hb/hb_task1a_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble')]), 'shell': False}
+[0.500734] (-) TimerEvent: {}
+[0.549036] (turtlesim) StdoutLine: {'line': b'[  1%] Built target turtlesim__cpp\n'}
+[0.553576] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target turtlesim__rosidl_generator_c\n'}
+[0.561125] (turtlesim) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_copy_turtlesim\n'}
+[0.580024] (turtlesim) StdoutLine: {'line': b'[ 21%] Built target turtlesim__rosidl_typesupport_cpp\n'}
+[0.582646] (turtlesim) StdoutLine: {'line': b'[ 31%] Built target turtlesim__rosidl_typesupport_c\n'}
+[0.584047] (turtlesim) StdoutLine: {'line': b'[ 41%] Built target turtlesim__rosidl_typesupport_introspection_c\n'}
+[0.585481] (turtlesim) StdoutLine: {'line': b'[ 51%] Built target turtlesim__rosidl_typesupport_introspection_cpp\n'}
+[0.586495] (turtlesim) StdoutLine: {'line': b'[ 61%] Built target turtlesim__rosidl_typesupport_fastrtps_cpp\n'}
+[0.592205] (turtlesim) StdoutLine: {'line': b'[ 71%] Built target turtlesim__rosidl_typesupport_fastrtps_c\n'}
+[0.600859] (-) TimerEvent: {}
+[0.616912] (turtlesim) StdoutLine: {'line': b'[ 73%] Built target draw_square\n'}
+[0.617191] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtle_teleop_key\n'}
+[0.617328] (turtlesim) StdoutLine: {'line': b'[ 75%] Built target turtlesim\n'}
+[0.619120] (turtlesim) StdoutLine: {'line': b'[ 77%] Built target mimic\n'}
+[0.626327] (turtlesim) StdoutLine: {'line': b'[ 83%] Built target turtlesim_node\n'}
+[0.637047] (turtlesim) StdoutLine: {'line': b'[ 84%] Built target turtlesim__py\n'}
+[0.659784] (turtlesim) StdoutLine: {'line': b'[ 93%] Built target turtlesim__rosidl_generator_py\n'}
+[0.679676] (turtlesim) StdoutLine: {'line': b'[ 95%] Built target turtlesim__rosidl_typesupport_c__pyext\n'}
+[0.679915] (turtlesim) StdoutLine: {'line': b'[ 97%] Built target turtlesim__rosidl_typesupport_introspection_c__pyext\n'}
+[0.687280] (turtlesim) StdoutLine: {'line': b'[100%] Built target turtlesim__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.700976] (-) TimerEvent: {}
+[0.801226] (-) TimerEvent: {}
+[0.860510] (turtlesim) StdoutLine: {'line': b'running egg_info\n'}
+[0.861038] (turtlesim) StdoutLine: {'line': b'writing turtlesim.egg-info/PKG-INFO\n'}
+[0.861288] (turtlesim) StdoutLine: {'line': b'writing dependency_links to turtlesim.egg-info/dependency_links.txt\n'}
+[0.861441] (turtlesim) StdoutLine: {'line': b'writing top-level names to turtlesim.egg-info/top_level.txt\n'}
+[0.863913] (turtlesim) StdoutLine: {'line': b"reading manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.864687] (turtlesim) StdoutLine: {'line': b"writing manifest file 'turtlesim.egg-info/SOURCES.txt'\n"}
+[0.894439] (turtlesim) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_turtlesim_egg\n'}
+[0.901350] (-) TimerEvent: {}
+[0.908704] (turtlesim) CommandEnded: {'returncode': 0}
+[0.933715] (hb_task_1a) Command: {'cmd': ['/usr/bin/python3', 'setup.py', 'egg_info', '--egg-base', '../../build/hb_task_1a', 'build', '--build-base', '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/build', 'install', '--record', '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log', '--single-version-externally-managed'], 'cwd': '/home/azmi/eyrc_hb/hb_task1a_ws/src/hb_task_1a', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'LANGUAGE': 'en_IN:en', 'USER': 'azmi', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/azmi', 'OLDPWD': '/home/azmi', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1565', 'SYSTEMD_EXEC_PID': '1945', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '11969', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/azmi/eyrc_hb/hb_task1a_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'azmi', 'JOURNAL_STREAM': '8:34421', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'azmi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/azmi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/azmis-Inspiron:@/tmp/.ICE-unix/1722,unix/azmis-Inspiron:/tmp/.ICE-unix/1722', 'INVOCATION_ID': '2b4ecb823a844bbab18d07111bf69a72', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'IBUS_DISABLE_SNOOPER': '1', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.JDWTC2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a23e5278-ffba-4c80-9b29-cc6c8bf8b1eb', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/prefix_override:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim'}, 'shell': False}
+[1.001465] (-) TimerEvent: {}
+[1.072651] (turtlesim) JobProgress: {'identifier': 'turtlesim', 'progress': 'install'}
+[1.081472] (turtlesim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/azmi/eyrc_hb/hb_task1a_ws/build/turtlesim'], 'cwd': '/home/azmi/eyrc_hb/hb_task1a_ws/build/turtlesim', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'azmi'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/azmi'), ('OLDPWD', '/home/azmi'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1565'), ('SYSTEMD_EXEC_PID', '1945'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '11969'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'azmi'), ('JOURNAL_STREAM', '8:34421'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'azmi'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/azmi/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/azmis-Inspiron:@/tmp/.ICE-unix/1722,unix/azmis-Inspiron:/tmp/.ICE-unix/1722'), ('INVOCATION_ID', '2b4ecb823a844bbab18d07111bf69a72'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JDWTC2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('TERMINATOR_UUID', 'urn:uuid:a23e5278-ffba-4c80-9b29-cc6c8bf8b1eb'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/azmi/eyrc_hb/hb_task1a_ws/build/turtlesim'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim:/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a:/opt/ros/humble')]), 'shell': False}
+[1.088362] (turtlesim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.088708] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/ament_index/resource_index/rosidl_interfaces/turtlesim\n'}
+[1.088940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.089107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.089183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.h\n'}
+[1.089255] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.089327] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.h\n'}
+[1.089397] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.089466] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.c\n'}
+[1.089537] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.c\n'}
+[1.089607] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__functions.h\n'}
+[1.089676] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.h\n'}
+[1.089745] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.h\n'}
+[1.089815] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.h\n'}
+[1.089884] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.h\n'}
+[1.090083] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__functions.h\n'}
+[1.090290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.090368] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.h\n'}
+[1.090439] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.h\n'}
+[1.090511] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.h\n'}
+[1.090582] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.h\n'}
+[1.090652] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.h\n'}
+[1.090721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.090789] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.h\n'}
+[1.090983] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.h\n'}
+[1.091121] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.c\n'}
+[1.091477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__functions.h\n'}
+[1.091563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.h\n'}
+[1.091621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.h\n'}
+[1.091689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.h\n'}
+[1.091759] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.h\n'}
+[1.091829] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.h\n'}
+[1.091898] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.h\n'}
+[1.091967] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.h\n'}
+[1.092036] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__functions.c\n'}
+[1.092105] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.h\n'}
+[1.092174] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.h\n'}
+[1.092243] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__functions.c\n'}
+[1.092337] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__functions.c\n'}
+[1.092407] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.h\n'}
+[1.092477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.c\n'}
+[1.092549] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__functions.h\n'}
+[1.092619] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.h\n'}
+[1.092689] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.092758] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.h\n'}
+[1.092827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.092896] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.c\n'}
+[1.093083] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.h\n'}
+[1.093164] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.h\n'}
+[1.093236] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__functions.h\n'}
+[1.093306] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/library_path.sh\n'}
+[1.093375] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/library_path.dsv\n'}
+[1.093444] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_c.so\n'}
+[1.093513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.093581] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.093648] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.093717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.093785] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.093854] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094013] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.094071] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.094125] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094183] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094237] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094290] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094343] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094395] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.094448] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.094500] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_c.h\n'}
+[1.094553] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_c.so\n'}
+[1.094605] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.094657] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.094709] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/color.hpp\n'}
+[1.094762] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.094844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__traits.hpp\n'}
+[1.094900] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__struct.hpp\n'}
+[1.094952] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__builder.hpp\n'}
+[1.095004] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__builder.hpp\n'}
+[1.095061] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__traits.hpp\n'}
+[1.095114] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__struct.hpp\n'}
+[1.095166] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/pose.hpp\n'}
+[1.095218] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.095270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_absolute.hpp\n'}
+[1.095322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/teleport_relative.hpp\n'}
+[1.095374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/spawn.hpp\n'}
+[1.095426] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.095478] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__struct.hpp\n'}
+[1.095534] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__struct.hpp\n'}
+[1.095587] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__builder.hpp\n'}
+[1.095638] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__traits.hpp\n'}
+[1.095690] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__builder.hpp\n'}
+[1.095743] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__struct.hpp\n'}
+[1.095795] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__struct.hpp\n'}
+[1.095853] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__traits.hpp\n'}
+[1.095906] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__builder.hpp\n'}
+[1.095959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__builder.hpp\n'}
+[1.096011] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__traits.hpp\n'}
+[1.096064] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__builder.hpp\n'}
+[1.096115] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__traits.hpp\n'}
+[1.096167] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__struct.hpp\n'}
+[1.096219] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__traits.hpp\n'}
+[1.096270] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/kill.hpp\n'}
+[1.096322] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/set_pen.hpp\n'}
+[1.096374] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.096425] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/rotate_absolute.hpp\n'}
+[1.096477] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.096528] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__struct.hpp\n'}
+[1.096580] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__traits.hpp\n'}
+[1.096632] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__builder.hpp\n'}
+[1.096687] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.096741] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.096792] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.096844] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.096895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.096947] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.096998] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/dds_fastrtps\n'}
+[1.097049] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.097100] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.097152] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.097204] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.097256] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.097307] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.097359] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.097411] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/dds_fastrtps\n'}
+[1.097462] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.097519] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.097571] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.097622] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/dds_fastrtps\n'}
+[1.097673] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.097724] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.097775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.097827] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.097878] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.097929] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.c\n'}
+[1.097984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.c\n'}
+[1.098035] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_c.h\n'}
+[1.098087] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_c.h\n'}
+[1.098138] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.098190] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.098242] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.c\n'}
+[1.098298] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_c.h\n'}
+[1.098351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.c\n'}
+[1.098402] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.c\n'}
+[1.098454] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.098506] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.c\n'}
+[1.098558] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_c.h\n'}
+[1.098609] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_c.h\n'}
+[1.098660] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_c.h\n'}
+[1.098713] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.c\n'}
+[1.098764] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.098877] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.098959] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.c\n'}
+[1.099024] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_c.h\n'}
+[1.099077] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_c.so\n'}
+[1.099129] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_c.so\n'}
+[1.099182] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim\n'}
+[1.099239] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg\n'}
+[1.099291] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail\n'}
+[1.099352] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__type_support.cpp\n'}
+[1.099405] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/color__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.099458] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.099510] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/msg/detail/pose__type_support.cpp\n'}
+[1.099563] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv\n'}
+[1.099615] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail\n'}
+[1.099667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.099720] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__type_support.cpp\n'}
+[1.099772] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.099823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/set_pen__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.099876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.099931] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/spawn__type_support.cpp\n'}
+[1.099984] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__type_support.cpp\n'}
+[1.100037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_relative__type_support.cpp\n'}
+[1.100089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/kill__type_support.cpp\n'}
+[1.100142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/srv/detail/teleport_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.100195] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action\n'}
+[1.100247] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail\n'}
+[1.100299] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.100351] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/include/turtlesim/turtlesim/action/detail/rotate_absolute__type_support.cpp\n'}
+[1.100404] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_introspection_cpp.so\n'}
+[1.100460] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_typesupport_cpp.so\n'}
+[1.100512] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/pythonpath.sh\n'}
+[1.100565] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/pythonpath.dsv\n'}
+[1.100616] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info\n'}
+[1.100668] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/dependency_links.txt\n'}
+[1.100720] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/top_level.txt\n'}
+[1.100772] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/SOURCES.txt\n'}
+[1.100824] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim-1.4.2-py3.10.egg-info/PKG-INFO\n'}
+[1.100876] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim\n'}
+[1.100927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_c.c\n'}
+[1.100985] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.101038] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.101090] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/__init__.py\n'}
+[1.101142] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.101193] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg\n'}
+[1.101244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color_s.c\n'}
+[1.101297] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_color.py\n'}
+[1.101349] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/__init__.py\n'}
+[1.101400] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose.py\n'}
+[1.101455] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg/_pose_s.c\n'}
+[1.101505] (-) TimerEvent: {}
+[1.101597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv\n'}
+[1.101658] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative_s.c\n'}
+[1.101717] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen.py\n'}
+[1.101770] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill.py\n'}
+[1.101823] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn_s.c\n'}
+[1.101875] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_kill_s.c\n'}
+[1.101927] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/__init__.py\n'}
+[1.101979] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_relative.py\n'}
+[1.102032] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute_s.c\n'}
+[1.102084] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_spawn.py\n'}
+[1.102137] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_teleport_absolute.py\n'}
+[1.102189] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv/_set_pen_s.c\n'}
+[1.102241] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action\n'}
+[1.102294] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute.py\n'}
+[1.102347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/__init__.py\n'}
+[1.102399] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action/_rotate_absolute_s.c\n'}
+[1.102451] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/libturtlesim__rosidl_generator_py.so\n'}
+[1.102503] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.102556] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/_turtlesim_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.121424] (turtlesim) StdoutLine: {'line': b"Listing '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim'...\n"}
+[1.121651] (turtlesim) StdoutLine: {'line': b"Listing '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/action'...\n"}
+[1.121728] (turtlesim) StdoutLine: {'line': b"Listing '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/msg'...\n"}
+[1.121784] (turtlesim) StdoutLine: {'line': b"Listing '/home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/srv'...\n"}
+[1.125751] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.125987] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.126089] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/local/lib/python3.10/dist-packages/turtlesim/turtlesim_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.126271] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/libturtlesim__rosidl_generator_py.so\n'}
+[1.126387] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.idl\n'}
+[1.126513] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/msg/Color.idl\n'}
+[1.126594] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/msg/Pose.idl\n'}
+[1.126665] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Kill.idl\n'}
+[1.126735] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/SetPen.idl\n'}
+[1.126849] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Spawn.idl\n'}
+[1.127031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.idl\n'}
+[1.127185] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.idl\n'}
+[1.127266] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/action/RotateAbsolute.action\n'}
+[1.127329] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/msg/Color.msg\n'}
+[1.127401] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/msg/Pose.msg\n'}
+[1.127471] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Kill.srv\n'}
+[1.127541] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Kill_Request.msg\n'}
+[1.127611] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Kill_Response.msg\n'}
+[1.127680] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/SetPen.srv\n'}
+[1.127750] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/SetPen_Request.msg\n'}
+[1.127819] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/SetPen_Response.msg\n'}
+[1.127889] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Spawn.srv\n'}
+[1.127960] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Spawn_Request.msg\n'}
+[1.128031] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/Spawn_Response.msg\n'}
+[1.128101] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute.srv\n'}
+[1.128173] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Request.msg\n'}
+[1.128244] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportAbsolute_Response.msg\n'}
+[1.128347] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative.srv\n'}
+[1.128420] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Request.msg\n'}
+[1.128492] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/srv/TeleportRelative_Response.msg\n'}
+[1.128562] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/turtlesim/turtlesim_node\n'}
+[1.128701] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/turtlesim/turtle_teleop_key\n'}
+[1.128832] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/turtlesim/draw_square\n'}
+[1.128892] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/lib/turtlesim/mimic\n'}
+[1.128961] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images\n'}
+[1.129076] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/dashing.png\n'}
+[1.129171] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/eyantra.png\n'}
+[1.129282] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/galactic.png\n'}
+[1.129358] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/ardent.png\n'}
+[1.129429] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/crystal.png\n'}
+[1.129536] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/eloquent.png\n'}
+[1.129606] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/rolling.png\n'}
+[1.129729] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/foxy.png\n'}
+[1.129822] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/bouncy.png\n'}
+[1.129895] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/images/humble.png\n'}
+[1.129966] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/launch\n'}
+[1.130037] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/launch/multisim.launch.py\n'}
+[1.130107] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/ament_index/resource_index/package_run_dependencies/turtlesim\n'}
+[1.130179] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/ament_index/resource_index/parent_prefix_path/turtlesim\n'}
+[1.130250] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.sh\n'}
+[1.130319] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/ament_prefix_path.dsv\n'}
+[1.130388] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/path.sh\n'}
+[1.130457] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/environment/path.dsv\n'}
+[1.130525] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/local_setup.bash\n'}
+[1.130621] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/local_setup.sh\n'}
+[1.130693] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/local_setup.zsh\n'}
+[1.130780] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/local_setup.dsv\n'}
+[1.130931] (turtlesim) StdoutLine: {'line': b'-- Installing: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/package.dsv\n'}
+[1.130990] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/ament_index/resource_index/packages/turtlesim\n'}
+[1.131043] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport.cmake\n'}
+[1.131096] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.131169] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.131223] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.131277] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_cppExport.cmake\n'}
+[1.131330] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.131383] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.131436] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.131489] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.131543] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport.cmake\n'}
+[1.131597] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.131667] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.131721] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.131775] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport.cmake\n'}
+[1.131833] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesim__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.131887] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport.cmake\n'}
+[1.131940] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/export_turtlesim__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.131999] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake-extras.cmake\n'}
+[1.132052] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.132104] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.132156] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.132261] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.132316] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.132372] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.132427] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig.cmake\n'}
+[1.132555] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/cmake/turtlesimConfig-version.cmake\n'}
+[1.132610] (turtlesim) StdoutLine: {'line': b'-- Up-to-date: /home/azmi/eyrc_hb/hb_task1a_ws/install/turtlesim/share/turtlesim/package.xml\n'}
+[1.133135] (turtlesim) CommandEnded: {'returncode': 0}
+[1.201630] (-) TimerEvent: {}
+[1.215501] (hb_task_1a) StdoutLine: {'line': b'running egg_info\n'}
+[1.216141] (hb_task_1a) StdoutLine: {'line': b'writing ../../build/hb_task_1a/hb_task_1a.egg-info/PKG-INFO\n'}
+[1.216381] (hb_task_1a) StdoutLine: {'line': b'writing dependency_links to ../../build/hb_task_1a/hb_task_1a.egg-info/dependency_links.txt\n'}
+[1.216559] (hb_task_1a) StdoutLine: {'line': b'writing entry points to ../../build/hb_task_1a/hb_task_1a.egg-info/entry_points.txt\n'}
+[1.216676] (hb_task_1a) StdoutLine: {'line': b'writing requirements to ../../build/hb_task_1a/hb_task_1a.egg-info/requires.txt\n'}
+[1.216737] (hb_task_1a) StdoutLine: {'line': b'writing top-level names to ../../build/hb_task_1a/hb_task_1a.egg-info/top_level.txt\n'}
+[1.218424] (hb_task_1a) StdoutLine: {'line': b"reading manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'\n"}
+[1.219166] (hb_task_1a) StdoutLine: {'line': b"writing manifest file '../../build/hb_task_1a/hb_task_1a.egg-info/SOURCES.txt'\n"}
+[1.219335] (hb_task_1a) StdoutLine: {'line': b'running build\n'}
+[1.219427] (hb_task_1a) StdoutLine: {'line': b'running build_py\n'}
+[1.219593] (hb_task_1a) StdoutLine: {'line': b'running install\n'}
+[1.219755] (hb_task_1a) StdoutLine: {'line': b'running install_lib\n'}
+[1.220766] (hb_task_1a) StdoutLine: {'line': b'running install_data\n'}
+[1.221332] (hb_task_1a) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.222759] (hb_task_1a) StdoutLine: {'line': b"removing '/home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.223078] (hb_task_1a) StdoutLine: {'line': b'Copying ../../build/hb_task_1a/hb_task_1a.egg-info to /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/python3.10/site-packages/hb_task_1a-0.0.0-py3.10.egg-info\n'}
+[1.223965] (hb_task_1a) StdoutLine: {'line': b'running install_scripts\n'}
+[1.247337] (hb_task_1a) StdoutLine: {'line': b'Installing task_1a_3299 script to /home/azmi/eyrc_hb/hb_task1a_ws/install/hb_task_1a/lib/hb_task_1a\n'}
+[1.247613] (hb_task_1a) StdoutLine: {'line': b"writing list of installed files to '/home/azmi/eyrc_hb/hb_task1a_ws/build/hb_task_1a/install.log'\n"}
+[1.278703] (hb_task_1a) CommandEnded: {'returncode': 0}
+[1.301752] (-) TimerEvent: {}
+[1.340577] (hb_task_1a) JobEnded: {'identifier': 'hb_task_1a', 'rc': 0}
+[1.401890] (-) TimerEvent: {}
+[1.453851] (turtlesim) JobEnded: {'identifier': 'turtlesim', 'rc': 0}
+[1.454790] (-) EventReactorShutdown: {}
