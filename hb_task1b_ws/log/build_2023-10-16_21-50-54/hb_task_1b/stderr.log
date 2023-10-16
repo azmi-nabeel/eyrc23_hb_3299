@@ -1,0 +1,3 @@
+warning: build_scripts: scripts/controller.py is an empty file (skipping)
+
+error: [Errno 2] No such file or directory: '/home/azmi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build/scripts-3.10/controller.py'

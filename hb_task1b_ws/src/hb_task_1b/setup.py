@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 import os
-import glob
+from glob import glob
 
 package_name = 'hb_task_1b'
 
@@ -16,7 +16,8 @@ setup(
     (os.path.join('share', package_name, 'urdf'), glob('urdf/*')),
     (os.path.join('share', package_name, 'meshes'), glob('meshes/*')),
     (os.path.join('share', package_name, 'config'), glob('config/*')),
-    (os.path.join('share', package_name, 'worlds'), glob('worlds/*'))
+    (os.path.join('share', package_name, 'worlds'), glob('worlds/*')),
+    (os.path.join('share', package_name, 'scripts'), glob('scripts/*'))
     ],
 
     install_requires=['setuptools'],
@@ -26,6 +27,10 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
+    scripts=[
+        'scripts/controller.py',
+        'scripts/service_node.py',
+    ],
     entry_points={
         'console_scripts': [
         ],

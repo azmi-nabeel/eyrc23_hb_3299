@@ -1,0 +1,16 @@
+running egg_info
+writing ../../build/hb_task_1b/hb_task_1b.egg-info/PKG-INFO
+writing dependency_links to ../../build/hb_task_1b/hb_task_1b.egg-info/dependency_links.txt
+writing entry points to ../../build/hb_task_1b/hb_task_1b.egg-info/entry_points.txt
+writing requirements to ../../build/hb_task_1b/hb_task_1b.egg-info/requires.txt
+writing top-level names to ../../build/hb_task_1b/hb_task_1b.egg-info/top_level.txt
+reading manifest file '../../build/hb_task_1b/hb_task_1b.egg-info/SOURCES.txt'
+writing manifest file '../../build/hb_task_1b/hb_task_1b.egg-info/SOURCES.txt'
+running build
+running build_py
+running build_scripts
+creating /home/azmi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build/scripts-3.10
+warning: build_scripts: scripts/controller.py is an empty file (skipping)
+
+copying scripts/service_node.py -> /home/azmi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build/scripts-3.10
+error: [Errno 2] No such file or directory: '/home/azmi/eyrc_hb/hb_task1b_ws/build/hb_task_1b/build/scripts-3.10/controller.py'
