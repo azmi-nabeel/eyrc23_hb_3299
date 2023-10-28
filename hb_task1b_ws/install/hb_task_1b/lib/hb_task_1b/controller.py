@@ -6,140 +6,121 @@ import time
 import math
 from tf_transformations import euler_from_quaternion
 from my_robot_interfaces.srv import NextGoal
+import sys
 
 class HBTask1BController(Node):
-
-   def __init__(self):
+    def __init__(self):
         super().__init__('hb_task1b_controller')
-        
-        # Initialze Publisher and Subscriber
-        # We'll leave this for you to figure out the syntax for
-        # initialising publisher and subscriber of cmd_vel and odom respectively
+
         self.pub_cmd_vel = self.create_publisher(Twist, 'cmd_vel', 10)
         self.sub_odom = self.create_subscription(Odometry, 'odom', self.odom_callback, 10)
 
-        # Declare a Twist message
-        self.vel = Twist()
+        
+        self.cli = self.create_client(NextGoal, 'next_goal')      
+        self.req = NextGoal.Request() 
+        self.index = 0      
+        while not self.cli.wait_for_service(timeout_sec=1.0):
+            print("'next_goal' service is not available, waiting...")
 
-        # Initialise the required variables to 0
-        self.vel.linear.x = 0.0
-        self.vel.linear.y = 0.0
-        self.vel.angular.z = 0.0
+        self.timer=self.create_timer(0.1,self.go_to_goal)
 
-        # For maintaining control loop rate.
-        self.rate = self.create_rate(100)
-
-        # Initialise variables that may be needed for the control loop
-        # For ex: x_d, y_d, theta_d (in **meters** and **radians**) for defining desired goal-pose.
-        self.error_x=0.0
-        self.error_y=0.0
-        self.error_theta=0.0
+        self.x_current=0.0
+        self.y_current=0.0
+        self.theta_current=0.0
 
         self.x_goal = 0.0
         self.y_goal = 0.0
         self.theta_goal = 0.0
 
-        # and also Kp values for the P Controller
-        self.Kp_linear = 1.5 
-        self.Kp_angular = 0.5
+        self.stage=1  
+        self.goalReached=True
 
-
-        # client for the "next_goal" service
-        self.cli = self.create_client(NextGoal, 'next_goal')      
-        self.req = NextGoal.Request() 
-        self.index = 0
-
-   def send_request(self, index):
-        self.req.request_goal = self.index                 
-        self.future = self.cli.call_async(self.req)
-
-   def odom_callback(self,msg):
-        x_current = msg.pose.pose.position.x
-        y_current = msg.pose.pose.position.y
-
-        print(x_current)
-        print(y_current)
-
-        # Calculate error in x and y
-        self.error_x = self.x_goal - x_current
-        self.error_y = self.y_goal - y_current
-
-        # Calculate desired linear velocity
-        self.vel.linear.x = self.Kp_linear * self.error_x
-        self.vel.linear.y = self.Kp_linear * self.error_y
-
-        # Extract current orientation and calculate error in theta
+    def odom_callback(self,msg):
+        self.x_current = msg.pose.pose.position.x
+        self.y_current = msg.pose.pose.position.y
         orientation = msg.pose.pose.orientation
-        _, _, theta_current = euler_from_quaternion([orientation.x, orientation.y, orientation.z, orientation.w])
-        self.error_theta = self.theta_goal - theta_current
+        _, _, self.theta_current = euler_from_quaternion([orientation.x, orientation.y, orientation.z, orientation.w])
 
-        # Calculate desired angular velocity
-        self.vel.angular.z = self.Kp_angular * self.error_theta
 
-        # Publish the control command
-        self.pub_cmd_vel.publish(self.vel) 
+    def go_to_goal(self):
+        if self.goalReached:
+            return
+        new_vel=Twist()
 
-   def euclidean_distance(self):
-       return math.sqrt((self.error_x**2) + (self.error_y**2))
+        # Ecludian Distance
+        distance_to_goal = math.sqrt( (self.x_goal - self.x_current)**2  + (self.y_goal - self.y_current)**2 )
+        # Angle to Goal
+        angle_to_goal =math.atan2(self.y_goal - self.y_current , self.x_goal - self.x_current)
+
+        distance_tolerance = 0.1
+        angle_tolerance = 0.1
+
+        angle_error = angle_to_goal - self.theta_current
+        kp = 10
+        kp_linear=7
+
+        error_theta=self.theta_goal-self.theta_current
+
+        if self.stage==1:
+            if (distance_to_goal)<distance_tolerance:
+                self.stage+=1
+            elif abs(angle_error) > angle_tolerance:
+                new_vel.angular.z = kp * angle_error
+            else :
+                # print("Hey")
+                if( distance_to_goal ) >= distance_tolerance:
+                    new_vel.linear.x = kp_linear * distance_to_goal
+                else :
+                    new_vel.linear.x= 0.0
+                    new_vel.angular.z=0.0
+                    new_vel.linear.y=0.0
+                    self.stage+=1
+
+        if self.stage==2:
+            if abs(error_theta)>angle_tolerance:
+                new_vel.angular.z = kp * error_theta
+            else:
+                new_vel.angular.z = 0.0
+                self.stage+=1
+
+        if self.stage==3:
+            new_vel.linear.x= 0.0
+            new_vel.angular.z=0.0
+            new_vel.linear.y=0.0
+            self.pub_cmd_vel.publish(new_vel)
+            self.get_logger().info("Goal Reached ")
+            self.goalReached=True
+
+        self.pub_cmd_vel.publish(new_vel)
+                
 
 def main(args=None):
     rclpy.init(args=args)
-
-    # Create an instance of the EbotController class
-    ebot_controller = HBTask1BController()
-
-    # Send an initial request with the index from ebot_controller.index
-    ebot_controller.send_request(ebot_controller.index)
-
-    # Main loop
-    while rclpy.ok():   
-        # Check if the service call is done
-        if ebot_controller.future.done():
-            try:
-                # response from the service call
-                response = ebot_controller.future.result()
-            except Exception as e:
-                ebot_controller.get_logger().infselfo(
-                    'Service call failed %r' % (e,))
-            else:
-                #########           GOAL POSE             #########
-                ebot_controller.x_goal      = response.x_goal
-                ebot_controller.y_goal      = response.y_goal
-                ebot_controller.theta_goal  = response.theta_goal
-                ebot_controller.flag = response.end_of_list
-                ####################################################    
-                # Find error (in x, y and theta) in global frame
-                # the /odom topic is giving pose of the robot in global frame
-                # the desired pose is declared above and defined by you in global frame
-                # therefore calculate error in global frame 
-                # (Calculate error in body frame)
-                # But for Controller outputs robot velocity in robot_body frame, 
-                # i.e. velocity are define is in x, y of the robot frame, 
-                # Notice: the direction of z axis says the same in global and body frame
-                # therefore the errors will have have to be calculated in body frame.
-                # 
-                # This is probably the crux of Task 1, figure this out and rest should be fine. 
-                # Finally implement a P controller 
-                # to react to the error with velocities in x, y and theta.  
-                # Safety Check
-                # make sure the velocities are within a range.
-                # for now since we are in a simulator and we are not dealing with actual physical limits on the system 
-                # we may get away with skipping this step. But it will be very necessary in the long run.   
-                #If Condition is up to you
-                if ebot_controller.euclidean_distance()>=0.5:
-                    continue
-
-                ############     DO NOT MODIFY THIS       #########
-                ebot_controller.index += 1
-                if ebot_controller.flag == 1 :
-                    ebot_controller.index = 0
-                ebot_controller.send_request(ebot_controller.index)
-                ####################################################    
-        # Spin once to process callbacks
-        rclpy.spin_once(ebot_controller)
-
-    # Destroy the node and shut down ROS
-    ebot_controller.destroy_node()
+    ebot = HBTask1BController()
+    ebot.req.request_goal = ebot.index                 
+    ebot.future = ebot.cli.call_async(ebot.req)
+    while rclpy.ok():
+        rclpy.spin_until_future_complete(ebot, ebot.future)
+        if ebot.future.result() is not None:
+            ebot.goalReached=False
+            ebot.x_goal=ebot.future.result().x_goal
+            ebot.y_goal=ebot.future.result().y_goal
+            ebot.theta_goal=ebot.future.result().theta_goal
+            # print(ebot.x_goal)
+            # print(ebot.y_goal)
+            # print(ebot.theta_goal)
+            # print(ebot.future.result().end_of_list)
+            while not ebot.goalReached:
+                rclpy.spin_once(ebot)
+            time.sleep(2)
+            ebot.index+=1
+            ebot.stage=1
+            if ebot.future.result().end_of_list:
+                ebot.index=0
+            ebot.req.request_goal = ebot.index                 
+            ebot.future = ebot.cli.call_async(ebot.req)
+        
+    ebot.destroy_node()
     rclpy.shutdown()
 
 if __name__ == '__main__':

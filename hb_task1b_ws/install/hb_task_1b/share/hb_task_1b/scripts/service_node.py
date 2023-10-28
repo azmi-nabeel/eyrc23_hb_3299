@@ -45,7 +45,7 @@ class ServiceNode(Node):
         response.y_goal = y
         response.theta_goal = 0.0
         response.end_of_list = self.flag
-        # self.get_logger().info(f"Received request: {request.request_goal}")
+        #self.get_logger().info(f"Received request: {request.request_goal}")
         if self.logger_flag == 1:
             self.get_logger().info("Service started...")
             self.logger_flag = 0
