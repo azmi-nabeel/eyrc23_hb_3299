@@ -1,0 +1,22 @@
+[1.811s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b': PYTHONPATH=/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build install --record /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log --single-version-externally-managed
+[2.384s] running egg_info
+[2.385s] writing ../../../build/hb_task2b/hb_task2b.egg-info/PKG-INFO
+[2.387s] writing dependency_links to ../../../build/hb_task2b/hb_task2b.egg-info/dependency_links.txt
+[2.387s] writing entry points to ../../../build/hb_task2b/hb_task2b.egg-info/entry_points.txt
+[2.388s] writing requirements to ../../../build/hb_task2b/hb_task2b.egg-info/requires.txt
+[2.389s] writing top-level names to ../../../build/hb_task2b/hb_task2b.egg-info/top_level.txt
+[2.393s] reading manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[2.396s] writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[2.396s] running build
+[2.397s] running build_py
+[2.398s] running install
+[2.401s] running install_lib
+[2.405s] running install_data
+[2.407s] running install_egg_info
+[2.411s] removing '/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info' (and everything under it)
+[2.412s] Copying ../../../build/hb_task2b/hb_task2b.egg-info to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info
+[2.416s] running install_scripts
+[2.453s] Installing controller script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[2.453s] Installing nextgoalpub script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[2.454s] writing list of installed files to '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log'
+[2.586s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b' returned '0': PYTHONPATH=/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build install --record /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log --single-version-externally-managed

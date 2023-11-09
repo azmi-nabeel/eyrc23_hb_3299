@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/hb_task2a/hb_task2a.egg-info/PKG-INFO
+writing dependency_links to ../../../build/hb_task2a/hb_task2a.egg-info/dependency_links.txt
+writing entry points to ../../../build/hb_task2a/hb_task2a.egg-info/entry_points.txt
+writing requirements to ../../../build/hb_task2a/hb_task2a.egg-info/requires.txt
+writing top-level names to ../../../build/hb_task2a/hb_task2a.egg-info/top_level.txt
+reading manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying scripts/feedback.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+running install_egg_info
+removing '/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../build/hb_task2a/hb_task2a.egg-info to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info
+running install_scripts
+Installing feedback script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/hb_task2a
+writing list of installed files to '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log'

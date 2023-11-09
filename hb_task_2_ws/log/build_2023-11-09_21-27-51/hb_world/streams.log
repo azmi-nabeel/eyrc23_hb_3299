@@ -1,0 +1,43 @@
+[0.811s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+[0.861s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+[1.013s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
+[1.026s] -- Install configuration: ""
+[1.026s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch
+[1.026s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch/world.launch.py
+[1.026s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds
+[1.027s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds/gazebo.world
+[1.027s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models
+[1.027s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface
+[1.027s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes
+[1.027s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg
+[1.028s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.sdf
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.config
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png
+[1.029s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.config
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.sh
+[1.030s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.dsv
+[1.031s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.bash
+[1.031s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.sh
+[1.034s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.zsh
+[1.034s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.dsv
+[1.034s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.dsv
+[1.035s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world
+[1.035s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake
+[1.035s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake
+[1.036s] -- Up-to-date: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.xml
+[1.037s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
