@@ -1,0 +1,80 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+-- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+-- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
+-- Install configuration: ""
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch/world.launch.py
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds/gazebo.world
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.sdf
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.config
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.config
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.sh
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.dsv
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.bash
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.sh
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.zsh
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.dsv
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.dsv
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake
+-- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.xml

@@ -1,0 +1,40 @@
+[1.694s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2a': PYTHONPATH=/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/prefix_override:/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2a build --build-base /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build install --record /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log --single-version-externally-managed
+[2.042s] running egg_info
+[2.043s] creating ../../../build/hb_task2a/hb_task2a.egg-info
+[2.043s] writing ../../../build/hb_task2a/hb_task2a.egg-info/PKG-INFO
+[2.043s] writing dependency_links to ../../../build/hb_task2a/hb_task2a.egg-info/dependency_links.txt
+[2.043s] writing entry points to ../../../build/hb_task2a/hb_task2a.egg-info/entry_points.txt
+[2.043s] writing requirements to ../../../build/hb_task2a/hb_task2a.egg-info/requires.txt
+[2.043s] writing top-level names to ../../../build/hb_task2a/hb_task2a.egg-info/top_level.txt
+[2.044s] writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+[2.046s] reading manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+[2.047s] writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+[2.047s] running build
+[2.047s] running build_py
+[2.047s] creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build
+[2.047s] creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib
+[2.047s] creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a
+[2.047s] copying hb_task2a/__init__.py -> /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a
+[2.048s] running install
+[2.048s] running install_lib
+[2.048s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a
+[2.048s] copying /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a/__init__.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a
+[2.049s] byte-compiling /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a/__init__.py to __init__.cpython-310.pyc
+[2.049s] running install_data
+[2.050s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index
+[2.050s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index
+[2.050s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index/packages
+[2.050s] copying resource/hb_task2a -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index/packages
+[2.051s] copying package.xml -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a
+[2.051s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch
+[2.051s] copying launch/task2a.launch.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch
+[2.051s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+[2.051s] copying scripts/controller.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+[2.051s] copying scripts/service_node.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+[2.051s] copying scripts/feedback.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+[2.052s] running install_egg_info
+[2.052s] Copying ../../../build/hb_task2a/hb_task2a.egg-info to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info
+[2.053s] running install_scripts
+[2.075s] Installing feedback script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/hb_task2a
+[2.076s] writing list of installed files to '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log'
+[2.134s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2a' returned '0': PYTHONPATH=/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/prefix_override:/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2a build --build-base /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build install --record /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log --single-version-externally-managed

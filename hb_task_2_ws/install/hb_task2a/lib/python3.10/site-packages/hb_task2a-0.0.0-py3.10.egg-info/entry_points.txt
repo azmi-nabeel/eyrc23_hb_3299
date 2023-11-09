@@ -1,0 +1,3 @@
+[console_scripts]
+feedback = hb_task2a.feedback:main
+

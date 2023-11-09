@@ -1,0 +1,46 @@
+[1.612s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b': PYTHONPATH=/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build install --record /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log --single-version-externally-managed
+[1.971s] running egg_info
+[1.971s] creating ../../../build/hb_task2b/hb_task2b.egg-info
+[1.972s] writing ../../../build/hb_task2b/hb_task2b.egg-info/PKG-INFO
+[1.972s] writing dependency_links to ../../../build/hb_task2b/hb_task2b.egg-info/dependency_links.txt
+[1.972s] writing entry points to ../../../build/hb_task2b/hb_task2b.egg-info/entry_points.txt
+[1.972s] writing requirements to ../../../build/hb_task2b/hb_task2b.egg-info/requires.txt
+[1.972s] writing top-level names to ../../../build/hb_task2b/hb_task2b.egg-info/top_level.txt
+[1.972s] writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[1.974s] reading manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[1.975s] writing manifest file '../../../build/hb_task2b/hb_task2b.egg-info/SOURCES.txt'
+[1.975s] running build
+[1.975s] running build_py
+[1.975s] creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build
+[1.976s] creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib
+[1.976s] creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.976s] copying hb_task2b/bot_controller.py -> /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.977s] copying hb_task2b/__init__.py -> /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.977s] copying hb_task2b/nextGoalPub.py -> /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b
+[1.977s] running install
+[1.978s] running install_lib
+[1.978s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.978s] copying /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/bot_controller.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.978s] copying /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/__init__.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.978s] copying /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build/lib/hb_task2b/nextGoalPub.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b
+[1.978s] byte-compiling /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/bot_controller.py to bot_controller.cpython-310.pyc
+[1.979s] byte-compiling /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/__init__.py to __init__.cpython-310.pyc
+[1.979s] byte-compiling /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b/nextGoalPub.py to nextGoalPub.cpython-310.pyc
+[1.981s] running install_data
+[1.982s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index
+[1.982s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index/resource_index
+[1.982s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index/resource_index/packages
+[1.982s] copying resource/hb_task2b -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/ament_index/resource_index/packages
+[1.982s] copying package.xml -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b
+[1.982s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.982s] copying launch/task2b.launch.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.983s] copying launch/submission.launch.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.983s] copying launch/controller.launch.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/launch
+[1.983s] creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/share/hb_task2b/scripts
+[1.983s] running install_egg_info
+[1.985s] Copying ../../../build/hb_task2b/hb_task2b.egg-info to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages/hb_task2b-0.0.0-py3.10.egg-info
+[1.986s] running install_scripts
+[2.012s] Installing controller script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[2.012s] Installing nextgoalpub script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/hb_task2b
+[2.012s] writing list of installed files to '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log'
+[2.147s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_task2b' returned '0': PYTHONPATH=/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/prefix_override:/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2b/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/hb_task2b build --build-base /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/build install --record /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2b/install.log --single-version-externally-managed

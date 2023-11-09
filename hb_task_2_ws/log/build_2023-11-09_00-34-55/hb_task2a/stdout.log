@@ -1,0 +1,38 @@
+running egg_info
+creating ../../../build/hb_task2a/hb_task2a.egg-info
+writing ../../../build/hb_task2a/hb_task2a.egg-info/PKG-INFO
+writing dependency_links to ../../../build/hb_task2a/hb_task2a.egg-info/dependency_links.txt
+writing entry points to ../../../build/hb_task2a/hb_task2a.egg-info/entry_points.txt
+writing requirements to ../../../build/hb_task2a/hb_task2a.egg-info/requires.txt
+writing top-level names to ../../../build/hb_task2a/hb_task2a.egg-info/top_level.txt
+writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+reading manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+writing manifest file '../../../build/hb_task2a/hb_task2a.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build
+creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib
+creating /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a
+copying hb_task2a/__init__.py -> /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a
+running install
+running install_lib
+creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a
+copying /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/build/lib/hb_task2a/__init__.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a
+byte-compiling /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index
+creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index
+creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index/packages
+copying resource/hb_task2a -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/ament_index/resource_index/packages
+copying package.xml -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a
+creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch
+copying launch/task2a.launch.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/launch
+creating /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+copying scripts/controller.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+copying scripts/service_node.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+copying scripts/feedback.py -> /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/share/hb_task2a/scripts
+running install_egg_info
+Copying ../../../build/hb_task2a/hb_task2a.egg-info to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/python3.10/site-packages/hb_task2a-0.0.0-py3.10.egg-info
+running install_scripts
+Installing feedback script to /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_task2a/lib/hb_task2a
+writing list of installed files to '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_task2a/install.log'

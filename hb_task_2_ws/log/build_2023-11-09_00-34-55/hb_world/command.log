@@ -1,0 +1,6 @@
+Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world -DCMAKE_INSTALL_PREFIX=/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world
+Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world -DCMAKE_INSTALL_PREFIX=/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world
+Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
+Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world

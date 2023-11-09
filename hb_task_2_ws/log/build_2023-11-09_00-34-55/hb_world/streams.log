@@ -1,0 +1,86 @@
+[0.820s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world -DCMAKE_INSTALL_PREFIX=/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world
+[0.873s] -- The C compiler identification is GNU 11.4.0
+[0.950s] -- The CXX compiler identification is GNU 11.4.0
+[0.957s] -- Detecting C compiler ABI info
+[1.020s] -- Detecting C compiler ABI info - done
+[1.034s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.034s] -- Detecting C compile features
+[1.034s] -- Detecting C compile features - done
+[1.039s] -- Detecting CXX compiler ABI info
+[1.135s] -- Detecting CXX compiler ABI info - done
+[1.144s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.144s] -- Detecting CXX compile features
+[1.145s] -- Detecting CXX compile features - done
+[1.147s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.329s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.431s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.480s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.485s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.495s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.544s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.628s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.630s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.746s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.769s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.811s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.822s] -- Looking for pthread.h
+[1.890s] -- Looking for pthread.h - found
+[1.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.980s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.982s] -- Found Threads: TRUE  
+[2.209s] -- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)
+[2.210s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[2.244s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[2.245s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.323s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.323s] -- Added test 'lint_cmake' to check CMake code style
+[2.324s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.326s] -- Added test 'xmllint' to check XML markup files
+[2.327s] -- Configuring done
+[2.331s] -- Generating done
+[2.332s] -- Build files have been written to: /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
+[2.351s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/azmi/eyrc_hb/hb_task_2_ws/src/eYRC-2023_Hologlyph_Bots/hb_world -DCMAKE_INSTALL_PREFIX=/home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world
+[2.353s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+[2.450s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world -- -j8 -l8
+[2.468s] Invoking command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
+[2.475s] -- Install configuration: ""
+[2.475s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch
+[2.475s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//launch/world.launch.py
+[2.475s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//worlds/gazebo.world
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/ground_surface.dae
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/meshes/geoglyph.jpg
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.sdf
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/ground_surface/model.config
+[2.476s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.jpg
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/meshes/arena.dae
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.sdf
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/arena/model.config
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera
+[2.477s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/camera.dae
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/meshes/17eyantra_logo_large e.png
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.sdf
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world//models/e_camera/model.config
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/package_run_dependencies/hb_world
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/parent_prefix_path/hb_world
+[2.478s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.sh
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/ament_prefix_path.dsv
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.sh
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/environment/path.dsv
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.bash
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.sh
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.zsh
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/local_setup.dsv
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.dsv
+[2.479s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/ament_index/resource_index/packages/hb_world
+[2.480s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig.cmake
+[2.480s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/cmake/hb_worldConfig-version.cmake
+[2.480s] -- Installing: /home/azmi/eyrc_hb/hb_task_2_ws/install/hb_world/share/hb_world/package.xml
+[2.481s] Invoked command in '/home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/azmi/eyrc_hb/hb_task_2_ws/build/hb_world
